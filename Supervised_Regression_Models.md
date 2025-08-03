@@ -1,4 +1,4 @@
-# 🧠 Supervised Regression Models - Explained Like I’m 10
+# 🧠 Supervised Regression Models
 
 ## 📈 1. Linear Regression
 1. Draws the best-fitting straight line through the data points.
