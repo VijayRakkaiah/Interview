@@ -12,6 +12,8 @@
 9. Doesn’t work well with complex, non-linear patterns.
 10. A good starting model for many regression problems.
 
+---
+
 ## 🌳 2. Decision Tree Regressor
 1. Splits data into branches by asking simple "yes/no" questions.
 2. Each split helps make the prediction more specific.
@@ -23,6 +25,8 @@
 8. Works well with both numerical and categorical data.
 9. Can handle missing values.
 10. Fast to train but less stable on small changes in data.
+
+---
 
 ## 🌲🌲 3. Random Forest Regressor
 1. Builds many decision trees using random parts of the data.
@@ -36,6 +40,8 @@
 9. Not sensitive to scaling or missing data.
 10. Performs well on most real-world problems.
 
+---
+
 ## 🧠 4. Support Vector Regressor (SVR)
 1. Tries to fit a line that stays within a margin (tube) of tolerance.
 2. Focuses on data points that fall outside this margin (support vectors).
@@ -47,6 +53,8 @@
 8. Not very interpretable.
 9. Resistant to outliers using margin-based loss.
 10. Useful when you want a smooth and robust model.
+
+---
 
 ## 📦 5. K-Nearest Neighbors (KNN) Regressor
 1. Doesn’t learn during training; just stores all data.
@@ -60,6 +68,8 @@
 9. Doesn’t perform well in high-dimensional spaces.
 10. Great for datasets where similar things have similar outputs.
 
+---
+
 ## 🚀 6. Gradient Boosting Regressor (XGBoost, LightGBM, etc.)
 1. Builds one tree at a time, each fixing the errors of the last.
 2. Learns patterns step-by-step to reduce prediction error.
@@ -71,3 +81,5 @@
 8. Needs careful tuning to avoid overfitting.
 9. Used widely in machine learning competitions (like Kaggle).
 10. Models like XGBoost and LightGBM are popular variants.
+
+---
