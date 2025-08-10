@@ -34,11 +34,11 @@ At the end of each branch, we give a prediction based on the average of the poin
 
 Let’s predict **exam scores** based on study hours:
 
-📂 All students
-  ├─ If study_hours ≤ 4 → Avg score = 50
-  └─ If study_hours > 4
-       ├─ If study_hours ≤ 7 → Avg score = 70
-       └─ If study_hours > 7 → Avg score = 90
+    📂 All students  
+    ├─ If study\_hours ≤ 4 → Avg score = 50  
+    └─ If study\_hours > 4  
+        ├─ If study\_hours ≤ 7 → Avg score = 70  
+        └─ If study\_hours > 7 → Avg score = 90
 
 If a student studies **6 hours**, the tree says → **70 marks**.
 
