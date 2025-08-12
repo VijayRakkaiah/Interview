@@ -87,7 +87,7 @@ Just like linear regression, we use **error** to measure how good our prediction
 
 **Mean Squared Error (MSE)**
 
-	`MSE = (1/n) * ∑(yᵢ - ŷᵢ)²`
+	MSE = (1/n) * ∑(yᵢ - ŷᵢ)²
 
 
 Where:
@@ -122,3 +122,4 @@ Use it when:
 - You want **good accuracy**
 - Your data is **non-linear**
 - You want a model that works well **without much tuning**
+
