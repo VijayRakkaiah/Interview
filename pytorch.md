@@ -23,7 +23,7 @@ We use it so we don’t have to build everything from scratch. It makes building
 **Answer:**  
 You create a class that uses `nn.Module` as its parent. Like this:
 
-\`\`\`python
+```python
 import torch.nn as nn
 
 class MyModel(nn.Module):
@@ -35,7 +35,7 @@ class MyModel(nn.Module):
     def forward(self, x):
         # Tell how data flows through layers
         return self.linear(x)
-\`\`\`
+```
 
 ---
 
@@ -108,9 +108,9 @@ It tells your model, “We’re training now!” — so it uses layers like drop
 **Answer:**  
 You save its brain (the weights):
 
-\`\`\`python
+```python
 torch.save(model.state_dict(), 'model.pth')
-\`\`\`
+```
 
 ---
 
@@ -118,10 +118,10 @@ torch.save(model.state_dict(), 'model.pth')
 
 **Answer:**
 
-\`\`\`python
+```python
 model.load_state_dict(torch.load('model.pth'))
 model.eval()
-\`\`\`
+```
 
 It’s like giving your model back its memory.
 
@@ -131,5 +131,6 @@ It’s like giving your model back its memory.
 
 **Answer:**  
 Using `model()` is better — it calls `forward()` but also does **extra safety checks**. Like putting on a helmet before riding a bike.
+
 
 ---
