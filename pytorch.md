@@ -1,9 +1,5 @@
 # 🧠 PyTorch `nn.Module` Interview Questions
 
-A simple, beginner-friendly guide to 15 interview questions about PyTorch's `nn.Module`, explained like you're 10 years old.
-
----
-
 ## 1. What is `nn.Module` in PyTorch?
 
 **Answer:**  
@@ -134,3 +130,4 @@ Using `model()` is better — it calls `forward()` but also does **extra safety 
 
 
 ---
+
