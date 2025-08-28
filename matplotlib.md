@@ -83,7 +83,7 @@ plt.subplot(1, 2, 1)
 plt.plot(x1, y1)
     
 plt.subplot(1, 2, 2)
-plt.plot(x2, y2)` 
+plt.plot(x2, y2)
 ```   
 
 ----------
