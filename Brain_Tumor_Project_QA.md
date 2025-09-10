@@ -77,7 +77,7 @@ For each batch: move data → zero gradients → forward pass → compute loss �
 
 ### 13) How are predictions converted to class labels?
 **Answer:**  
-Using `torch.max(outputs, 1)` which picks the index of the largest logit. This corresponds to the predicted class.
+Using `torch.max(outputs, 1)` which picks the index of the largest logit. This corresponds to the predicted class. 
 
 ---
 
@@ -312,3 +312,4 @@ Data leakage, small datasets, wrong augmentations, poor labeling, lack of extern
 Do patient-level splits, collect more data, apply careful augmentation, try stronger transfer learning, add interpretability, and validate externally before clinical use.
 
 ---
+
