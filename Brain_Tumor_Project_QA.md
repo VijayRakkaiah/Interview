@@ -65,7 +65,7 @@ It’s suitable for multi-class classification. It expects raw logits and labels
 ### 11) What does the training loop do (conceptually)?
 **Answer:**  
 For each batch: move data → zero gradients → forward pass → compute loss → backprop → optimizer step. Track loss/accuracy across epochs.
-
+ 
 ---
 
 ### 12) What is `model.train()` vs `model.eval()`?
@@ -312,5 +312,6 @@ Data leakage, small datasets, wrong augmentations, poor labeling, lack of extern
 Do patient-level splits, collect more data, apply careful augmentation, try stronger transfer learning, add interpretability, and validate externally before clinical use.
 
 ---
+
 
 
