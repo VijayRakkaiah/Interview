@@ -6,7 +6,7 @@
 **Answer:**  
 The project builds an image-classification pipeline to distinguish brain MRI images into classes (`glioma`, `meningioma`, `no_tumor`, `pituitary`). It loads images, preprocesses them, trains CNNs (custom + pretrained), and evaluates using accuracy, confusion matrix, and classification reports.
 
----
+--- 
 
 ### 2) How is the dataset organized and why does that matter?
 **Answer:**  
@@ -312,6 +312,7 @@ Data leakage, small datasets, wrong augmentations, poor labeling, lack of extern
 Do patient-level splits, collect more data, apply careful augmentation, try stronger transfer learning, add interpretability, and validate externally before clinical use.
 
 ---
+
 
 
 
