@@ -1,6 +1,6 @@
 # Brain Tumor MRI Classification – Interview Questions & Answers
   
----
+--- 
 
 ### 1) What is the goal of this project?
 **Answer:**  
@@ -312,6 +312,7 @@ Data leakage, small datasets, wrong augmentations, poor labeling, lack of extern
 Do patient-level splits, collect more data, apply careful augmentation, try stronger transfer learning, add interpretability, and validate externally before clinical use.
 
 ---
+
 
 
 
