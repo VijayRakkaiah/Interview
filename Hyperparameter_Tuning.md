@@ -10,7 +10,7 @@ Think of building a LEGO car.
 
 - The **bricks** are your **data**.
 - The **instructions** are your **model**.
-- But you also decide:
+- But you also decide: 
   - How fast to build
   - How big the wheels are
   - How long the car should be
@@ -96,3 +96,4 @@ but actually **learns** to predict well.
 You can answer:
 
 > *“I use techniques like Grid Search or Random Search with cross-validation to find the best hyperparameters, such as learning rate or tree depth. I sometimes use smarter methods like Bayesian Optimization or tools like Optuna when speed and efficiency are important.”*
+
