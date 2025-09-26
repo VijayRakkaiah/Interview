@@ -2,7 +2,7 @@
   
 --- 
 
-### 1) What is the goal of this project? 
+### 1) What is the goal of this project?  
 **Answer:**  
 The project builds an image-classification pipeline to distinguish brain MRI images into classes (`glioma`, `meningioma`, `no_tumor`, `pituitary`). It loads images, preprocesses them, trains CNNs (custom + pretrained), and evaluates using accuracy, confusion matrix, and classification reports.
 
@@ -312,6 +312,7 @@ Data leakage, small datasets, wrong augmentations, poor labeling, lack of extern
 Do patient-level splits, collect more data, apply careful augmentation, try stronger transfer learning, add interpretability, and validate externally before clinical use.
 
 ---
+
 
 
 
