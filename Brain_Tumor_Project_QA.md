@@ -26,7 +26,7 @@ Pretrained models like ResNet expect 224×224 inputs. Resizing standardizes shap
 
 ---
 
-### 5) Why use `transforms.Normalize(mean=[0.485,0.456,0.406], std=[0.229,0.224,0.225])`?
+### 5) Why use `transforms.Normalize(mean=[0.485,0.456,0.406], std=[0.229,0.224,0.225])`? 
 **Answer:**  
 These are ImageNet normalization values. They align MRI inputs with the pretrained model’s expected distribution, ensuring pretrained weights behave as intended.
 
@@ -312,6 +312,7 @@ Data leakage, small datasets, wrong augmentations, poor labeling, lack of extern
 Do patient-level splits, collect more data, apply careful augmentation, try stronger transfer learning, add interpretability, and validate externally before clinical use.
 
 ---
+
 
 
 
