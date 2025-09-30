@@ -8,7 +8,7 @@ The project builds an image-classification pipeline to distinguish brain MRI ima
 
 --- 
 
-### 2) How is the dataset organized and why does that matter?
+### 2) How is the dataset organized and why does that matter? 
 **Answer:**  
 The dataset is organized into folders by split and class (e.g. `./data/train/glioma`). This allows automatic mapping of folder names to labels and reproducible splits. A consistent structure prevents mismatches and simplifies data loading.
 
@@ -312,6 +312,7 @@ Data leakage, small datasets, wrong augmentations, poor labeling, lack of extern
 Do patient-level splits, collect more data, apply careful augmentation, try stronger transfer learning, add interpretability, and validate externally before clinical use.
 
 ---
+
 
 
 
