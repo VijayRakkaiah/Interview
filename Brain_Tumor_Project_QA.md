@@ -49,7 +49,7 @@ It detects GPU availability for faster training. Model and tensors must be moved
 It stacks conv layers to learn patterns, uses ReLU for nonlinearity, pooling for downsampling, flattens features, and applies fully connected layers for classification.
 
 ---
-
+ 
 ### 9) What improvements does ImprovedCNN add over SimpleCNN?
 **Answer:**  
 It adds BatchNorm (stable training), more conv layers (richer features), and Dropout (reduces overfitting).
@@ -312,6 +312,7 @@ Data leakage, small datasets, wrong augmentations, poor labeling, lack of extern
 Do patient-level splits, collect more data, apply careful augmentation, try stronger transfer learning, add interpretability, and validate externally before clinical use.
 
 ---
+
 
 
 
