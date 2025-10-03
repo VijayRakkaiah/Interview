@@ -636,4 +636,194 @@ Excel functions: T.TEST, CHISQ.TEST, Z.TEST.
 
 ## Q57. What is the law of large numbers?
 
-**Detailed Answer**
+**Detailed Answer:**  
+As sample size increases, sample mean converges to population mean.  
+
+**Short & Sweet:**  
+Larger n → sample mean ≈ population mean.
+
+---
+
+## Q58. Types of kurtosis?
+
+**Detailed Answer:**  
+- Mesokurtic (normal).  
+- Leptokurtic (heavy tails).  
+- Platykurtic (light tails).  
+
+**Short & Sweet:**  
+Types: meso, lepto, platy.
+
+---
+
+## Q59. Real-life examples of normal distribution?
+
+**Detailed Answer:**  
+Heights, IQ scores, measurement errors, test scores.  
+
+**Short & Sweet:**  
+Examples: heights, IQ, errors.
+
+---
+
+## Q60. What is robust statistics?
+
+**Detailed Answer:**  
+Methods resistant to violations of assumptions/outliers. Example: median instead of mean, MAD instead of SD.  
+
+**Short & Sweet:**  
+Robust stats = **resistant to outliers/assumptions**.
+
+---
+
+## Q61. Difference between descriptive and inferential statistics?
+
+**Detailed Answer:**  
+(Repeated Q31). Descriptive = summarize. Inferential = predict.  
+
+**Short & Sweet:**  
+Descriptive = describe, Inferential = infer.
+
+---
+
+## Q62. Explain a real-life situation where correlation is used.
+
+**Detailed Answer:**  
+Example: Studying correlation between exercise hours and cholesterol levels.  
+
+**Short & Sweet:**  
+Correlation: **exercise vs cholesterol**.
+
+---
+
+## Q63. Types of correlation?
+
+**Detailed Answer:**  
+- Positive correlation.  
+- Negative correlation.  
+- Zero correlation.  
+
+**Short & Sweet:**  
+Positive, Negative, Zero.
+
+---
+
+## Q64. What is t-test?
+
+**Detailed Answer:**  
+Statistical test comparing means: one-sample, two-sample, paired.  
+
+**Short & Sweet:**  
+t-test = compare means.
+
+---
+
+## Q65. Null and alternative hypothesis?
+
+**Detailed Answer:**  
+- Null (H₀): no effect/difference.  
+- Alternative (H₁): effect/difference exists.  
+
+**Short & Sweet:**  
+H₀=no effect, H₁=effect.
+
+---
+
+## Q66. Steps in hypothesis testing?
+
+**Detailed Answer:**  
+1. Define H₀, H₁.  
+2. Choose significance α.  
+3. Compute test statistic.  
+4. Find p-value.  
+5. Compare with α → reject/accept H₀.  
+
+**Short & Sweet:**  
+Steps: state H₀/H₁ → α → test → p-value → decision.
+
+---
+
+## Q67. What is non-parametric test?
+
+**Detailed Answer:**  
+Statistical test not assuming data follows normal distribution. Example: Mann-Whitney U, Kruskal-Wallis.  
+
+**Short & Sweet:**  
+Non-parametric = no distribution assumption.
+
+---
+
+## Q68. Why is standard deviation better than variance?
+
+**Detailed Answer:**  
+Variance is squared units, harder to interpret. SD in same units as data → more intuitive.  
+
+**Short & Sweet:**  
+SD better → **same units as data**.
+
+---
+
+## Q69. Define inferential statistics.
+
+**Detailed Answer:**  
+Branch of stats making predictions/inferences about population based on sample data. Uses estimation, hypothesis testing, regression.  
+
+**Short & Sweet:**  
+Inferential = **generalize sample → population**.
+
+---
+
+## Q70. Difference between 1-tailed and 2-tailed tests?
+
+**Detailed Answer:**  
+- One-tailed: tests effect in one direction only.  
+- Two-tailed: tests effect in both directions.  
+
+**Short & Sweet:**  
+1-tailed = one direction, 2-tailed = both.
+
+---
+
+## Q71. What is time series?
+
+**Detailed Answer:**  
+Time series = sequence of observations recorded over time intervals. Used in forecasting, trend analysis.  
+
+**Short & Sweet:**  
+Time series = **data over time**.
+
+---
+
+## Q72. Example of time series.
+
+**Detailed Answer:**  
+Stock prices daily, monthly rainfall, quarterly sales.  
+
+**Short & Sweet:**  
+Examples: stock prices, sales, weather.
+
+---
+
+## Q73. Steps in time series analysis?
+
+**Detailed Answer:**  
+1. Collect/clean data.  
+2. Plot & visualize.  
+3. Decompose (trend, seasonality, residual).  
+4. Build models (ARIMA, ETS).  
+5. Forecast & validate.  
+
+**Short & Sweet:**  
+Steps: collect → decompose → model → forecast.
+
+---
+
+## Q74. Uses of time series.
+
+**Detailed Answer:**  
+Used in forecasting demand, stock market, weather prediction, economics, business planning.  
+
+**Short & Sweet:**  
+Uses: forecasting **sales, stocks, weather**.
+
+---
