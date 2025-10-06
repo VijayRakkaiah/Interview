@@ -1,6 +1,6 @@
 # Statistics Interview Questions & Answers 
 
----
+--- 
 
 ## Q1. How is the statistical significance of an insight assessed?
 
@@ -827,4 +827,5 @@ Used in forecasting demand, stock market, weather prediction, economics, busines
 Uses: forecasting **sales, stocks, weather**.
 
 ---
+
 
