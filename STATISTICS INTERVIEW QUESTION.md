@@ -16,7 +16,7 @@ Significance = check **p-value < 0.05** or CI not containing null.
 
 ---
 
-## Q2. Where are long-tailed distributions used?
+## Q2. Where are long-tailed distributions used? 
 
 **Detailed Answer:**  
 Long-tailed distributions (like Pareto, log-normal, or power-law) describe data where **rare, extreme events** have a disproportionately large impact. They are used in:  
@@ -827,5 +827,6 @@ Used in forecasting demand, stock market, weather prediction, economics, busines
 Uses: forecasting **sales, stocks, weather**.
 
 ---
+
 
 
