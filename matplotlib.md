@@ -1,6 +1,6 @@
 # Matplotlib Basics
 
-## 1. What is Matplotlib?
+## 1. What is Matplotlib? 
 Matplotlib is a Python library used to create static, animated, and interactive plots.  
 It’s widely used for data visualization in Python.  
 It is especially useful with libraries like **NumPy** and **pandas**.  
