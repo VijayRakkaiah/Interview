@@ -5,7 +5,7 @@
 Power BI is like a smart notebook where you put data and it helps you make colorful charts and reports, so people can understand what the numbers are saying.
 
 ### 2. What are the parts of Power BI?
-**Answer:**
+**Answer:** 
 - **Power BI Desktop** – Where you build reports.  
 - **Power BI Service** – Where you share and view reports online.  
 - **Power BI Mobile** – View reports on your phone.  
@@ -132,3 +132,4 @@ It’s a chart that shows two different things (like sales and profit) on the sa
 ### 15. How do you publish a Tableau dashboard?
 **Answer:**  
 Click “Server” > “Publish Workbook” to upload it to Tableau Server or Tableau Online so others can view it.
+
