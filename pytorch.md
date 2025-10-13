@@ -4,7 +4,7 @@
 
 **Answer:**  
 Think of `nn.Module` like a LEGO blueprint. It tells PyTorch how to build and connect pieces (layers) of a neural network. Every model you make is built from this blueprint.
-
+ 
 ---
 
 ## 2. Why do we use `nn.Module`?
@@ -130,4 +130,5 @@ Using `model()` is better — it calls `forward()` but also does **extra safety 
 
 
 ---
+
 
