@@ -1,4 +1,4 @@
-# 🧮 What is Linear Regression?
+# 🧮 What is Linear Regression? 
 
 Imagine you're trying to guess someone's height based on their age. You have data from your friends – you know their ages and their heights.
 
@@ -148,4 +148,5 @@ By minimizing error, the model learns the best line to predict new values.
 | Cost Function     | Tells how wrong our predictions are              |
 | Gradient Descent  | A method to improve the line step by step        |
 | Global Minimum    | The best possible version of our line (least error) |
+
 | Error		  | (like MSE) measures how good the predictions are. - Lower error means a better model! |
