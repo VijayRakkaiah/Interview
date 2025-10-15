@@ -4,7 +4,7 @@
 1. Despite the name, it's a classification model, not regression.
 2. Outputs probabilities using the **sigmoid function**.
 3. Best suited for binary classification (e.g., spam vs not spam).
-4. Fast, simple, and works well with linearly separable data.
+4. Fast, simple, and works well with linearly separable data. 
 5. Uses a linear decision boundary (can be extended with polynomial features).
 6. Assumes a linear relationship between features and the log-odds of the outcome.
 7. Sensitive to multicollinearity and outliers.
@@ -81,4 +81,5 @@
 8. Robust to irrelevant features.
 9. Different variants: Gaussian, Multinomial, Bernoulli.
 10. Simple, powerful model for quick and dirty classification tasks.
+
 
