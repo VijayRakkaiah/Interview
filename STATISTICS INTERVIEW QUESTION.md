@@ -12,7 +12,7 @@ Statistical significance is assessed using **hypothesis testing**. We set up:
 A test statistic (like t, z, or χ²) is calculated, and a **p-value** is obtained. If the p-value is **less than the significance level (α, usually 0.05)**, we reject H₀ and conclude the result is statistically significant. Confidence intervals can also help assess significance—if the interval doesn’t contain the null value, the effect is significant.  
 
 **Short & Sweet:**  
-Significance = check **p-value < 0.05** or CI not containing null.
+Significance = check **p-value < 0.05** or CI not containing null. 
 
 ---
 
@@ -827,6 +827,7 @@ Used in forecasting demand, stock market, weather prediction, economics, busines
 Uses: forecasting **sales, stocks, weather**.
 
 ---
+
 
 
 
